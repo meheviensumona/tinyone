@@ -1,0 +1,82 @@
+                                                                PHD TO HTML NOTE                       
+
+how to remove grid from pHd file??
+          1.ctrl + h 
+          2.ctrl + ;
+how to show roler in pHD File?
+         1.ctrl+r
+how to find layer from phd file?
+         1.go meno
+         2.click window
+         3.select layer
+how to find history from phd file?
+         1.go meno
+         2.click window
+         3.select history
+how to grap image from phd file?
+         1.select img from selection bar
+         2.alt+ (indicates layer visibility) theke mouse er left button click
+         3. go meno bar click image
+         4.click trim
+         5.save image to click (ctrl+alt+shift+s)  or go file and select save for web
+         6.preset theke (PNG-28) select krbo  note(ati dile picture er quality valo dekhay) 
+         7.click save
+how to back main phd file??
+         1. go history
+         2.click first option
+
+https://fonts.google.com/
+font-family
+     1.pT sans regular
+     2.font awesome
+     3.pt sans bold
+     4.helveticaneue bold
+
+The most popular website font
+   1.Roboto
+   2.open sans
+   3.Montserrat
+   4.Lato
+   5.poppins
+   6.Poboto condensed
+   7.source sans pro
+   8.Oswald
+   9.Raleway
+
+
+font-family: 'PT Sans', sans-serif;
+
+fontawesome web link
+                   1.https://fontawesome.com/icons
+                   2.https://fontawesome.com/docs/web/setup/use-kit
+font awesome kit link
+                     https://fontawesome.com/kits/94cea1510d/setup
+cdn web link
+             https://www.jsdelivr.com
+
+slider----------------------------
+
+      xxl/xl/lg           md       sm/col
+
+header fontsize----------------------------------
+                   xxl/xl/lg           md           sm/col
+                   22px                22px            20px
+padding------------------------------
+                     xxl/xl/lg           md           sm/col
+top-botton              120-100          80            50-70
+
+
+header footer slider banner padding diffrent hoi
+
+1.top 100 bottom 100 
+2.top 120 bottom 100
+3.top 100 bottom 120
+4.top 100
+5.bottom100
+
+
+feature--------   xxl xl lg            md      sm/col
+  pt                 100px              80        50
+  pb                 120px              100       70
+  h1                  32px              32         25
+  p                   20px              20        15
