@@ -1,132 +1,206 @@
 /* common start */
-body{
-    font-family: "PT Sans", sans-serif;
+body {
+    font-family: "PT Sans", sans-serif !important;
     font-size: 16px !important;
     font-weight: 400 !important;
      color: #898989 !important;
+     padding-top: 109px;
 }
 /* common end */
 
 /* start header */
- header{
-    background-color: rgb(23, 159, 186) !important;
+ header {
+    background-color: #fcbd00 !important;
     padding: 20px 0px;
 }
-.c_nav{}
-.logo{}
-.meno{}
-.meno ul li a{
+.meno ul li a {
     font-size: 22px;
     font-weight:700;
     color: #010101 !important;
     padding:0 30px !important;
 }
-.meno ul li:last-child a{
+.meno ul li:last-child a {
     padding-right: 0px !important;
 }
-.meno ul li a:hover{}
-
+.meno ul li a:hover {
+    color: #fff !important;
+    transition: .3s;
+}
 /* end header */
-
-
-
 /* start slider */
-.slider{
-    background-color: rgb(23, 159, 186);
+.slider {
+    background-color:#fcbd00;
     padding-bottom:100px;
 }
-.s_text{
-
-}
-.s_text h1{
+.s_text h1 {
     font-size: 32px;
     font-weight: 700;
     color: #010101;
 }
-.s_text h2{
+.s_text h2 {
     margin: 20px 0;
     font-size: 20px;
     font-weight: 400;
     color: #313841;
-  
 }
-.s_text p{
+.s_text p {
     margin-bottom: 35px !important;
-    color: #555555;
-    
+    color: #555555; 
 }
-.s_icon{}
-.s_icon ul li{
+.s_icon ul li {
     margin-right: 30px !important;
 }
-.s_icon ul li a i{
+.s_icon ul li a i {
     font-size: 40px;
     color: black;
     transition: .3s;
 }
-.s_icon ul li a i:hover{
+.s_icon ul li a i:hover {
     transform: scale(0.8);
     color:white;
 }
-.s_img{}
-.s_img img{}
-
 /* carousel indicators */
-.caro{
+.caro {
     bottom: -80px !important;
 }
 .caro [data-bs-target] {
-    width: 20px !important;
-    height: 20px !important;
-    background-color:#2a1010 !important;
+    width: 18px !important;
+    height: 18px !important;
+    background-color:#fff !important;
     border-radius: 50%!important;
 }
 /* end slider */
 
-
 /* feature start */
 /* first row */
-.feature{
+.feature {
     padding:100px 0px 120px;
 }
-.f_title{}
-.f_h1{
+.f_h1 {
     margin-bottom: 15px;
     font-size: 32px;
     font-weight: 700;
     color: #010101;
 }
-.f_p{
+.f_p {
     margin-top: 10px;
     font-size: 20px;
     color: #313841;
-     line-height: 30px;
+     line-height: 25px;
 }
 /* second row */
-.f_icon{
-    /* border: 1px solid red; */
-}
-.f_icon i{
+.f_icon i {
     margin-top: 2px;
     font-size: 50px;
     color: #010101;
+    transition: .3;
 }
-.f_text{
-
+.f_icon:hover {
+    transform: scale(.8);
 }
-.f_text h2{
+.f_text h2 {
     font-size: 22px;
     font-weight: 400;
     color: #010101;
     margin-bottom: 15px;
 }
-.f_text p{
+.f_text p {
     letter-spacing: 1px;
 }
-.f_item{
+.f_item {
     margin-top: 70px !important;
 }
 /* feature end */
-.col-lg-4{
-    /* border: 1px solid red; */
+
+/* start contact */
+.contact {
+    padding: 100px 0px 120px;
+    background-color: #010101;
+}
+/* 1st row */
+.fh1 {
+    color: #fcbd00;
+}
+.fp {
+    color:white ;
+}
+/* 2nd row */
+.c_form {
+    margin: 20px 0px !important;
+}
+.c_input {
+    height: 55px;
+    font-family: "PT Sans", sans-serif;
+    color: #898989 !important;
+    padding: 15px 25px;
+}
+.c_submit {
+    width: 100%;
+    height:55px;
+    background-color: #fcbd00 !important;
+    font-family: "PT Sans", sans-serif;
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    color: #010101 !important;
+    text-transform: uppercase;
+}
+.c_submit:hover {
+    background-color: white !important;
+}
+/* 3rd row */
+.c_icon ul {
+    margin-top: 40px;
+}
+.c_icon ul li {
+    margin-right: 35px !important;
+}
+.c_icon ul li:last-child {
+    margin-right: 0px !important;  
+}
+.c_icon ul li a i {
+    font-size: 45px;
+    color: #fcbd00;
+    transition: .3s; 
+}
+.c_icon ul li a i:hover {
+    color: white;
+}
+.c_icon ul {
+    margin-top: 50px;
+}
+/* end contact */
+
+/* footer start */
+  footer {
+   background-color: #010101;
+   padding-bottom: 120px;
+  }
+  .footer_1 {}
+  .footer_1 address{
+    color: #fff;
+  }
+  .footer_2 {
+
+  }
+  .footer_2 p a {
+    text-decoration: none;
+    color: #fff;
+  }
+/* footoer end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.p{
+    border: 1px solid red;
 }

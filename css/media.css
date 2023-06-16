@@ -1,10 +1,15 @@
 /*  Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { 
+    /* body start */
+    body {
+        padding-top: 89px !important;
+    }
+    /* body end */
     /* header start */
-    header{  
+    header {  
         padding: 10px 0px;
     }
-    .meno ul li a{
+    .meno ul li a {
        font-size: 20px;
        padding:0 0px !important;
       text-align: end;
@@ -12,13 +17,13 @@
    }
    /* header end */
    /* slidel start */
-   .slider{
+   .slider {
     padding-bottom:60px;
 }
-.s_icon ul li{
+.s_icon ul li {
     margin-right: 20px !important;
 }
-.s_icon ul li a i{
+.s_icon ul li a i {
     font-size: 25px;
 }
 .s_text h2 {
@@ -37,10 +42,10 @@
  /* slider end */
 
  /* start feature */
-      .feature{
+      .feature {
         padding:70px 0px 50px;
     }
-    .f_h1{
+    .f_h1 {
         margin-bottom: 15px;
         font-size: 25px;
     }
@@ -52,7 +57,7 @@
     .f_text {
         text-align: center;
     }
-    .f_text p{
+    .f_text p {
         letter-spacing: 0px;
     }
     .f_item {
@@ -62,29 +67,70 @@
         margin: 2px 0px;
     }
 /* end feature */
+/* start contact */
+.contact {
+    padding: 50px 0px 60px;
 }
+  .c_input {
+    height: 40px;
+    margin-bottom: 16px;
+}
+.c_submit {
+    height: 40px;
+}
+/* 3rd row */
+.c_icon ul {
+    margin-top: 18px;
+}
+.c_icon ul li {
+    margin-right: 20px !important;
+}
+.c_icon ul li a i {
+    font-size: 38px;
+}
+/* end contact */
+/* start footer */
+footer {
+    padding-bottom: 50px;
+ }
+ .footer_1 {
+    text-align: center;
+    margin-bottom: 40px !important;
+ }
 
+ .footer_2 {
+    margin-bottom: 40px;
+    text-align: center;
+ }
+
+/* end footer */
+}
 /*  Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
- /* header start */
- header{  
+  /* body start */
+  body {
+    padding-top: 98px;
+}
+/* body end */
+    /* header start */
+ header {  
     padding: 15px 0px;
 }
- .meno ul li a{
+ .meno ul li a {
     font-size: 20px;
     padding:0 0px !important;
    text-align: end;
    padding-top: 10px !important;
 }
 /* header end */
-  /* slidel start */
-  .slider{
+/* slidel start */
+  .slider {
     padding-bottom: 60px;
 }
-.s_icon ul li{
+.s_icon ul li {
     margin-right: 25px !important;
 }
-.s_icon ul li a i{
+.s_icon ul li a i {
     font-size: 30px;
 }
 .s_text h2 {
@@ -101,22 +147,21 @@
     width: 15px !important;
     height: 15px !important; 
 }
-   /* slider end */ 
-   /* start feature */
-   .feature{
+ /* slider end */ 
+
+/* start feature */
+   .feature {
     padding:50px 0px 70px;
 }
-
-.f_h1{
+.f_h1 {
     margin-bottom: 15px;
     font-size: 25px;
 }
-.f_p{
+.f_p {
     margin-top: 10px;
     margin-bottom: 0px;
     font-size: 18px;
     line-height: 25px;
-
 }
 .f_text {
     text-align: center;
@@ -133,34 +178,90 @@
 .f_icon i {
     font-size: 35px;
 }
-   /* end feature */
+/* end feature */
 
+/* start contact */
+   .contact {
+    padding: 60px 0px 70px;
+   
+}
+   .c_input {
+    height: 45px;
+    margin-bottom: 16px;
+}
+.c_submit {
+    height: 45px;
+}
+/* 3rd row */
+.c_icon ul {
+    margin-top: 25px;
+}
+.c_icon ul li {
+    margin-right: 25px !important;
+}
+.c_icon ul li a i {
+    font-size: 38px;
+ 
+}
+   /* end contact */
+/* start footer */
+  footer {
+    padding-bottom: 70px;
+ }
+ .footer_1 {
+    text-align: center;
+    margin-bottom: 40px !important;
+ }
+ .footer_2 {
+    text-align: center;
+ }
+   
+/* end footer */
  }
 
  /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) { 
 /* header start */
-    .meno ul li a{
+    .meno ul li a {
         padding:0 0px !important;
        text-align: end;
        padding-top: 10px !important;
    }
    /* header end */
    /* start feature */
-   .feature{
+   .feature {
     padding:80px 0px 100px;
 }
    /* end feature */
+
+   /* start contact */
+   .contact {
+    padding: 70px 0px 80px;
+    
+}
+/* 3rd row */
+.c_icon ul {
+    margin-top: 30px;
+}
+.c_icon ul li {
+    margin-right: 20px !important;
+}
+.c_icon ul li a i {
+    font-size: 40px;
+}
+/* end contact */
+
+
+ /* footer start */
+   footer {
+   padding-bottom: 100px;
+}
+/* footer end */
  }
 
  /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) { 
-    /* header start */
-  
-   /* header end */
-
  }
-
  /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) and (max-width: 1399.98px) { 
     /* header start */
@@ -168,12 +269,11 @@
         padding:0 40px !important;
   }
   /* header end */
-
  }
  /* Extra Extra large devices (large desktops, 1200px and up) */
  @media (min-width: 1400px) { 
     /* header start */
-    .meno ul li a{
+    .meno ul li a {
         padding:0 50px !important;
   }
   /* header end */
