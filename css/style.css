@@ -163,7 +163,8 @@ body {
     transition: .3s; 
 }
 .c_icon ul li a i:hover {
-    color: white;
+    transform: scale(0.9);
+    color:white;
 }
 .c_icon ul {
     margin-top: 50px;
@@ -175,12 +176,8 @@ body {
    background-color: #010101;
    padding-bottom: 120px;
   }
-  .footer_1 {}
   .footer_1 address{
     color: #fff;
-  }
-  .footer_2 {
-
   }
   .footer_2 p a {
     text-decoration: none;
